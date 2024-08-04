@@ -1,3 +1,4 @@
 spacy
 fastapi
 uvicorn[standard]
+https://huggingface.co/rajaramsblr/en_med_ner_pipeline/resolve/main/en_med_ner_pipeline-any-py3-none-any.whl
