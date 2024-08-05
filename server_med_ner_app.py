@@ -33,7 +33,7 @@ def read_root():
 # https://huggingface.co/<you-user-name>/<specific-model-name>
 #!pip install https://huggingface.co/rajaramsblr/en_med_ner_pipeline/resolve/main/en_med_ner_pipeline-any-py3-none-any.whl
 #nlp_ner = spacy.load("../model-best")
-nlp_ner = spacy.load("en_med_ner_pipeline")
+#nlp_ner = spacy.load("en_med_ner_pipeline")
     
 @app.post("/ner_extract")
 async def read_predict(request: Request):
