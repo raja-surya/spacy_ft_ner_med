@@ -1,7 +1,7 @@
 # Fastapi server App for Med NER. 
 # This receives an user input text from a client, calls Spacy model to extract entities,
 #   and returns the entities back to the client.
-
+import fastapi
 from fastapi import FastAPI, Request
 import uvicorn
 import spacy
