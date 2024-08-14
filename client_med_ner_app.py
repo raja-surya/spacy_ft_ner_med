@@ -17,6 +17,7 @@ import pandas as pd
 #print("\n\nOut here in the beginning")
 
 # Initialize the session state values.
+
 if "ent_dict_list" not in st.session_state:
     #print("Initializing...")
     # User input
@@ -28,7 +29,7 @@ if "ent_dict_list" not in st.session_state:
     st.session_state.ent_dict_list = []
     # Dictionary of entities from current doc
     st.session_state.ent_dict = dict()
-    # html var to store the displact output of current doc
+    # html var to store the displacy output of current doc
     st.session_state.html = ""
         
 st.title("Medical Named Entity Recognition") 
@@ -52,12 +53,18 @@ def analyze_input():
     # So we had to have this method as callback.
     st.session_state.text_area = ''
     
-    # Call the spacy model to extract named entities and store it in a dict.
-        
-    #doc = st.session_state.nlp_ner(st.session_state.user_input)
-    response = requests.post("http://localhost:8080/ner_extract", \
-                                         json={'text':st.session_state.user_input})
+    # If fastapi server is running on local host
+    #response = requests.post("http://localhost:8080/ner_extract", \
+    #                                     json={'text':st.session_state.user_input})
     
+    # If fastapi server is running in a container deployed in AWS Fargate (ECS)
+    #response = requests.post("http://54.92.198.5:8080/ner_extract", \
+    #                                     json={'text':st.session_state.user_input})
+   
+    # If fastapi server is running in a container deployed in AWS App runner
+    response = requests.post("https://w7mj8iqa55.us-east-1.awsapprunner.com/ner_extract", \
+                                         json={'text':st.session_state.user_input})
+           
     #print(response.json())  
     st.session_state.ent_dict = response.json()['ent_dict']
     
@@ -66,7 +73,10 @@ def analyze_input():
         st.session_state.ent_dict[key] = [tuple(inner_list) for inner_list in st.session_state.ent_dict[key]]
     
     #print(st.session_state.ent_dict)
+    
+    # For displacy output
     st.session_state.html = response.json()['html_content']
+    
     # Append the entity dictionary of this doc to the master doc list.
     st.session_state.ent_dict_list.append(st.session_state.ent_dict)
     
