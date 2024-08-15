@@ -4,8 +4,6 @@
 
 import streamlit as st
 import requests
-import spacy
-from spacy import displacy
 import streamlit.components.v1 as components
 import pandas as pd
 
@@ -22,9 +20,6 @@ if "ent_dict_list" not in st.session_state:
     #print("Initializing...")
     # User input
     st.session_state.user_input = ""
-    ## Load the trained Spacy model
-    #st.session_state.nlp_ner = spacy.load("model-best")
-    
     # Var to store the entities of multiple docs as a list of dictionaries
     st.session_state.ent_dict_list = []
     # Dictionary of entities from current doc
@@ -32,7 +27,7 @@ if "ent_dict_list" not in st.session_state:
     # html var to store the displacy output of current doc
     st.session_state.html = ""
         
-st.title("Medical Named Entity Recognition") 
+st.title("Bio-Med Named Entity Recognition") 
 st.subheader("A Spacy based App to extract Bio-Medical entities from docs")
 st.text_area('Enter Text to Scan - You may copy paste from test_medical_txt file..', key='text_area')
 
@@ -62,7 +57,7 @@ def analyze_input():
     #                                     json={'text':st.session_state.user_input})
    
     # If fastapi server is running in a container deployed in AWS App runner
-    response = requests.post("https://w7mj8iqa55.us-east-1.awsapprunner.com/ner_extract", \
+    response = requests.post("https://up729q6xda.us-east-1.awsapprunner.com/ner_extract", \
                                          json={'text':st.session_state.user_input})
            
     #print(response.json())  
@@ -105,7 +100,6 @@ if button1:
     for label, value in st.session_state.ent_dict.items():
         st.write(label, '-' * 10, *value)
     
-   
 if button2:
     components.html(st.session_state.html, height=300, scrolling=True)
 

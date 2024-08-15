@@ -1,0 +1,51 @@
+1. Create an AWS account (if not already ) and create a IAM user 'AWS'.
+
+2. Assign permission AmazonEC2ContainerRegistryFullAccess to the user AWS.
+
+3. Create Access Key ID and Secret Access Key and download the csv (AWS_accessKeys.csv)
+
+4. Run "aws configure" on cmd terminal, and give the access key id and secret.
+
+5. Go to ECR (Elastic Container Service) and create a ECR Repository on AWS with the same name as the app "med_ner_fastapi". Keep "Visibility settings" as private and all other options untouched.
+
+6. Click on the ECR repository and then follow "View push commands" to push the docker image 
+to the ECR Repository.
+
+We can skip "Build your Docker image using the following command." instruction as we have already built the docker image.
+
+It will be like as follows:
+   aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin .....
+    
+   docker tag med_ner_fastapi:latest <aws acc>.dkr.ecr.us-east-1.amazonaws.com/med_ner_fastapi:latest
+        
+   docker images  <-- We should see the newly tagged image in the list.
+
+   docker push <aws acc>.dkr.ecr.us-east-1.amazonaws.com/med_ner_fastapi:latest
+   
+   The above push cmd will take few minutes.
+   Once the push is completed, refresh the aws repository page. It will show the image.
+   Copy and note down the URI of the image pushed, 
+   like- <aws acc>.dkr.ecr.us-east-1.amazonaws.com/med_ner_fastapi:latest
+
+
+7. Go to App runner and create service.
+
+    Select Repository type as "Container registry" and Provider as "Amazon ECR".
+    Fill container image URI from that copied in step 6.
+    Select ECR access role as AppRunnerECRAccessRole ( Create new service rule if it doesn't exist already ).
+    Click Next.
+    
+8. Give service name. Port as 8080. You can leave other options as default values.
+                                                      
+9. Click on "Next and then "Create and deploy". This will take some time. Meanwhile you can monitor the logs.
+                                                      
+10. Once the service is successfully deployed, copy the Default domain URL - e.g https://w7mj8iqa55.us-east-1.awsapprunner.com/ . If you open this URL in browser, you should see the Hello! page.
+
+11. Edit the client app's code with this URL for for requests.post().
+                                                      
+12. Run the streamlit client app locally and test the NER app deployed on AWS App runner !
+                                                      
+13.   **** MOST IMPORTANT - DO NOT FORGET TO CLEANUP AWS SERVICES STARTED - YOU WILL BE CHARGED !!! ***               
+    Delete the App runner service you created by clicking the Delete Action.
+    Go to ECR and delete the repository created.    
+ 
