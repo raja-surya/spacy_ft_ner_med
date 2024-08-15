@@ -1,0 +1,99 @@
+Number of glucocorticoid receptors in lymphocytes and their sensitivity to hormone action .
+
+The study demonstrated a decreased level of glucocorticoid receptors ( GR ) in peripheral blood lymphocytes from hypercholesterolemic subjects , and an elevated level in patients with acute myocardial infarction .
+
+In the lymphocytes with a high GR number , dexamethasone inhibited [ 3H ] -thymidine and [ 3H ] -acetate incorporation into DNA and cholesterol , respectively , in the same manner as in the control cells .
+
+On the other hand , a decreased GR number resulted in a less efficient dexamethasone inhibition of the incorporation of labeled compounds .
+
+These data showed that the sensitivity of lymphocytes to glucocorticoids changed only with a decrease of GR level .
+
+[ 1 , 25-Dihydroxyvitamin D3 receptors in lymphocytes and T- and B-lymphocyte count in patients with glomerulonephritis ]
+
+Content of receptors to hormonal form of vitamin D3 , 1.25 ( OH ) 2D3 , constituted 27.3 fmole/mg of protein in lymphocytes of peripheric blood of children with glomerulonephritis .
+
+At the same time , total content of T lymphocytes was decreased 1.5-fold in peripheric blood .
+
+Concentration of the receptors to 1.25 ( OH ) 2D3 was elevated up to 39.7 fmole/mg after I week of the treatment , whereas it was decreased to the initial level 24.8 fmole/mg within 4 weeks ; simultaneous alteration in the cAMP content was observed in lymphocytes .
+
+Treatment with 1- ( OH ) D3 normalized also the T lymphocytes content in peripheric blood .
+
+The data obtained suggest that under conditions of glomerulonephritis only high content of receptors to 1.25 ( OH ) 2D3 in lymphocytes enabled to perform the cell response to the hormone effect .
+
+To investigate whether the tumor expression of beta-2-microglobulin ( beta 2-M ) could serve as a marker of tumor biologic behavior , the authors studied specimens of breast carcinomas from 60 consecutive female patients .
+
+Presence of beta 2-M was analyzed by immunohistochemistry .
+
+No significant correlations were found between tumor beta 2-M expression and several histologic attributes such as type , histologic and nuclear grades , mitotic index , necrosis , vascular invasion , and lymphocytic infiltration .
+
+Likewise , beta 2-M was not associated with markers of disease extension such as TNM , ( UICC , classification of malignant tumors ) staging and axillary lymph node involvement or with estrogen , progesterone , and glucocorticoid receptor levels .
+
+However , there was a significantly positive association between tumor beta 2-M expression and the degree of lymphocytic infiltration in the tumor tissue .
+
+Beta 2-M serum levels were determined by an enzyme-linked immunosorbent assay in samples from 22 of the above women .
+
+Although some of the highest values had been obtained in women with larger ( T4 ) primary tumors , the authors failed to detect any statistical relationship between beta 2-M expression in the tumor with serum levels or between serum beta 2-M and the above histologic , laboratory , and clinical factors .
+
+[ Preliminary observation of level free-form E receptor levels in serum of normal childbearing-aged and pregnant women ]
+
+In 137 cases of childbearing-aged and pregnant women , free form E receptor levels ( sE ) in serum were measured by ELISA .
+
+The level of sE was significantly decreased during the first trimester , slightly higher in the second trimester , and recovered to normal in the third trimester .
+
+The results indicate that there is a relationship between a change in T cell function and pregnancy .
+
+Kappa B-specific DNA binding proteins : role in the regulation of human interleukin-2 gene expression .
+
+Transcriptional activation of the human interleukin-2 ( IL-2 ) gene , like induction of the IL-2 receptor alpha ( IL-2R alpha ) gene and the type 1 human immunodeficiency virus ( HIV-1 ) , is shown to be modulated by a kappa B-like enhancer element .
+
+Mutation of a kappa B core sequence identified in the IL-2 promoter ( -206 to -195 ) partially inhibits both mitogen- and HTLV-I Tax-mediated activation of this transcription unit and blocks the specific binding of two inducible cellular factors .
+
+These kappa B-specific proteins ( 80 to 90 and 50 to 55 kilodaltons ) similarly interact with the functional kappa B enhancer present in the IL-2R alpha promoter .
+
+These data suggest that these kappa B-specific proteins have a role in the coordinate regulation of this growth factor-growth factor receptor gene system that controls T cell proliferation .
+
+Novel region within the V kappa gene promoter is responsible for tissue and stage-specific expression of immunoglobulin genes in human lymphoid neoplasms .
+
+Immunoglobulin gene-specific transacting factors have been shown to play a role in lymphoid tissue-specific expression of immunoglobulin genes .
+
+The role of these factors in B-cell differentiation and stage-specific expression of these genes is , however , not fully understood .
+
+Different fragments of unrearranged human variable region of immunoglobulin kappa gene ( V kappa ) were used for cell-free in vitro transcription and DNA mobility shift assays .
+
+Previously described enhancement of in vitro transcription that was only seen with nuclear extracts derived from B-cell neoplasms corresponding to the late stages of B-cell differentiation was shown to be dependent on the actions of these factor ( s ) on the DNA region within the V kappa gene promoter .
+
+This region is located within the 920 bp fragment located 210 bp upstream from the coding region and this fragment represents a possible novel DNA region , which plays a role in the stage- and tissue-specific expression of immunoglobulin genes .
+
+[ Determination of the sensitivity to glucocorticoids in vitro ]
+
+A modified method for the determination of glucocorticoid receptors in human lymphocytes is suggested .
+
+The principal distinction of the method is standardization by the lymphocyte count in a sample ( 1 mln ) and the labeled hormone concentration .
+
+Examinations of 70 children aged 4 to 15 suffering from the nephrotic form of glomerulonephritis have made it possible to distinguish two groups of patients : with relatively high values of specific binding X = 6820.1 +/- 530.0 ( n = 30 , p = 0.95 , t = 2.04 ) , this corresponding to a clinical form of hormone -sensitive glomerulonephritis , and with relatively low values of specific binding X = 1815.2 +/- 302.8 ( n = 40 , p = 0.95 , t = 1.96 ) , that corresponds to hormone -resistant glomerulonephritis .
+
+These results permit regarding the specific binding value as a prognostic criterion in the assessment of corticosteroid therapy ; this allows a wide employment of the described method in practical nephrology .
+
+Octamer-binding proteins from B or HeLa cells stimulate transcription of the immunoglobulin heavy-chain promoter in vitro .
+
+The B-cell -type specificity of the immunoglobulin ( Ig ) heavy-chain and light-chain promoters is mediated by an octanucleotide ( OCTA ) element , ATGCAAAT , that is also a functional component of other RNA polymerase II promoters , such as snRNA and histone H2B promoters .
+
+Two nuclear proteins that bind specifically and with high affinity to the OCTA element have been identified .
+
+NF-A1 is present in a variety of cell types , whereas the presence of NF-A2 is essentially confined to B cells , leading to the hypothesis that NF-A2 activates cell-type-specific transcription of the Ig promoter and NF-A1 mediates the other responses of the OCTA element .
+
+Extracts of the B-cell line , BJA-B , contain high levels of NF-A2 and specifically transcribe Ig promoters .
+
+In contrast , extracts from HeLa cells transcribed the Ig promoter poorly .
+
+Surprisingly , addition of either affinity-enriched NF-A2 or NF-A1 to either a HeLa extract or a partially purified reaction system specifically stimulates the Ig promoter .
+
+This suggests that the constitutive OCTA-binding factor NF-A1 can activate transcription of the Ig promoter and that B-cell -specific transcription of this promoter , at least in vitro , is partially due to a quantitative difference in the amount of OCTA-binding protein .
+
+Because NF-A1 can stimulate Ig transcription , the inability of this factor to activate in vivo the Ig promoter to the same degree as the snRNA promoters probably reflects a difference in the context of the OCTA element in these two types of promoters .
+
+Identification of a putative regulator of early T cell activation genes .
+
+Molecules involved in the antigen receptor-dependent regulation of early T cell activation genes were investigated with the use of functional sequences of the T cell activation-specific enhancer of interleukin-2 ( IL-2 ) .
+
+One of these sequences forms a protein complex , NFAT-1 , specifically with nuclear extracts of activated T cells .
