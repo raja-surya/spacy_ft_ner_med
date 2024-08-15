@@ -13,4 +13,6 @@ Dockerfile - Dockerfile for containerization of the server app.
 
 requirements.txt - Packages to be installed in the container.
 
+Deploy_Steps_AWS_App_Runner.txt - Steps to follow for deploying the server app on AWS App Runner.
+
 test_medical_text.txt - Some bio-med text from the test dataset that can be used for testing the project.
