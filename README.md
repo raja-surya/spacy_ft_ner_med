@@ -12,3 +12,5 @@ server_med_ner_app.py - FastAPI server App to receive the user input text, call 
 Dockerfile - Dockerfile for containerization of the server app.
 
 requirements.txt - Packages to be installed in the container.
+
+test_medical_text.txt - Some bio-med text from the test dataset that can be used for testing the project.
